@@ -1,4 +1,4 @@
-"Maker Buoy" Repository
+## **"Maker Buoy" Repository**
 
 This repository contains Arduino source code and a hardware design files to build a low-cost drifting buoy.
 
