@@ -490,6 +490,7 @@ float temp_fahrenheit = temp_celsius * 9.0 / 5.0 + 32;
    Alarm_Time = Alarm_Time % 60;
    rtc1.setAlarmSeconds(Alarm_Time);
    rtc1.enableAlarm(rtc1.MATCH_SS);
+   delay(20); //Delay required to prevent alarm from not being set causing permanent sleep 
    rtc1.standbyMode();    // Sleep until next alarm match
    
  }  //*****************************End main loop****************************************
